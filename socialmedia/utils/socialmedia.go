@@ -73,6 +73,6 @@ type ResponseMessageDeletedSocialMedia struct {
 }
 
 type ResponseMessage struct {
-	Status string `json:"status" example:"fail"`
+	Status string `json:"status" example:"unsuccessful"`
 	Data   string `json:"data" example:"the error explained here"`
 }
